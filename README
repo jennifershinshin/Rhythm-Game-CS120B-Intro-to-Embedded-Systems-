@@ -1,0 +1,22 @@
+This is my final project for my Intro to Embedded Systems class.
+I made a rhythm game inspired by the Japanese game, "OSU", where there are lit up targets and the player must click the targets on time
+to the beat of the song.
+The player gets a point each time they click on the target when it is lit. The score is shown in binary in the 6 LED's. There is a hidden
+"power-up" (shown in video), which slows down time when triggered, giving the player more time to get to the targets. However, the
+power-up only lasts for a couple seconds. I also implemented a multiplayer system in which a second player can move around a slower moving
+2x2 square. The goal of the second player is to make sure the first player does not get the targets. How they achieve this is they can
+move their 2x2 square to touch the targets to make them disappear.
+
+What I used:
+- ATMEGA1284 Microcontroller
+- 8x8 LED matrix
+- 2 axis joystick
+- Shift Register
+- 6 LED's
+- 6 buttons
+
+Complexities:
+- Multiplayer system
+- Power-ups
+
+Here is a Youtube video which demonstrates my project and details on what I used to make it: https://youtu.be/0LZdUrwB_Xg
